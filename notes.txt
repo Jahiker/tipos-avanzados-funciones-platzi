@@ -1,2 +1,17 @@
 # TIPOS AVANZADOS Y FUNCIONES TYPESCRIPT
 
+## ENUMS
+-- Define un conjunto de variables
+-- Define un set de opciones
+-- Crean una especie de autodocumentacion
+-- Es recomendable que el nombre vayan en mayusculas
+
+##TUPLAS
+-- Arrays fuertemente tipados tanto en posicion de elementos con el limite de elementos
+
+## UNKNOWN TYPE
+-- Una mejor forma de evitar en any
+-- Tipo de variable desconocida
+
+## NEVERTYPE
+-- Es un tipo para funciones que nunca terminan su ejecucion
