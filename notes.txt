@@ -18,3 +18,9 @@
 
 ## PARAMETROS OPCIONALES
 -- Los parametros opcionales en las funciones siempre van al final, despues de los parametros obligatorios
+
+## SUBRECARGA DE FUNCIONES
+-- en caso de recibir varios tipos de datos y retornar tambien varios
+-- la sobrecarga permite definir segun el tipo de dato que recibes cual es el retorno
+-- Si la sobrecarga incluye un any o unknown esa sobrecarga debe dejarse de ultimo para evitar errores
+-- Tratar de reducir al maximo el numero de sobrecargas, si la retorno es igual puedes hacer un union type
