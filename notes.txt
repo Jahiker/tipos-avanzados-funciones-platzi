@@ -14,4 +14,7 @@
 -- Tipo de variable desconocida
 
 ## NEVERTYPE
--- Es un tipo para funciones que nunca terminan su ejecucion
+-- Es un tipo para funciones que nunca terminan su ejecucion o no se ejecutan por completo
+
+## PARAMETROS OPCIONALES
+-- Los parametros opcionales en las funciones siempre van al final, despues de los parametros obligatorios

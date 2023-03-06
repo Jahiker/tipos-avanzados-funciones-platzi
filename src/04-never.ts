@@ -20,5 +20,5 @@ const example = (input: unknown) => {
 
 console.log(example('hola'));
 console.log(example([1, 2, 3, 4]));
-console.log(example(65165));
+// console.log(example(65165));
 console.log('Hola despues del fail');

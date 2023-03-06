@@ -11,10 +11,10 @@ unknownVar = true;
 unknownVar = 651;
 unknownVar = {};
 
-if(typeof unknownVar === "string") {
+if (typeof unknownVar === 'string') {
   unknownVar.toUpperCase();
 }
 
 const parse = (str: string): unknown => {
   return JSON.parse(str);
-}
+};
