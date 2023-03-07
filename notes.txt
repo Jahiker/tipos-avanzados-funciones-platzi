@@ -24,3 +24,8 @@
 -- la sobrecarga permite definir segun el tipo de dato que recibes cual es el retorno
 -- Si la sobrecarga incluye un any o unknown esa sobrecarga debe dejarse de ultimo para evitar errores
 -- Tratar de reducir al maximo el numero de sobrecargas, si la retorno es igual puedes hacer un union type
+
+## INTERFACE
+-- una mejor forma de definir objetos
+-- Con type podemos definir tipos primitivos o directos y las interfaces para objetos o un conjunto de valores
+-- las interfaces se pueden extender a diferencia de los types
