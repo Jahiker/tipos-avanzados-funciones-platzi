@@ -1,15 +1,18 @@
-import { addProduct, products } from "./products/product.service";
+import { addProduct, products } from './products/product.service';
 
 addProduct({
-  id: 2,
-  title: "Camisa",
+  id: '2',
   createdAt: new Date(),
+  updatedAt: new Date(),
+  title: 'Camisa',
   stock: 80,
-  size: "M",
+  size: 'M',
   category: {
-    id: 12,
-    name: "c"
-  }
-})
+    id: '12',
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    name: 'c',
+  },
+});
 
-console.log(products)
+console.log(products);
