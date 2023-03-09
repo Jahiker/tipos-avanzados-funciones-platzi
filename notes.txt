@@ -29,3 +29,7 @@
 -- una mejor forma de definir objetos
 -- Con type podemos definir tipos primitivos o directos y las interfaces para objetos o un conjunto de valores
 -- las interfaces se pueden extender a diferencia de los types
+
+## UTILITY TYPES
+-- DTOs Data Transfers Objects
+
