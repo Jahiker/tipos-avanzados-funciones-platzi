@@ -12,3 +12,7 @@ export type examplePick = Pick<Product, 'color' | 'description'>;
 export interface UpdateProductDto extends Partial<CreateProductDto> {}
 // Required crea el type o interfaz y convierte todas las propiedades en obligatorias
 export type example2 = Required<Product>;
+
+export interface FindProductDto extends Readonly<Omit<Product, 'tags'>> {
+  readonly tags: ReadonlyArray<string>
+}

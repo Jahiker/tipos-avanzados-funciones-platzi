@@ -31,5 +31,22 @@
 -- las interfaces se pueden extender a diferencia de los types
 
 ## UTILITY TYPES
--- DTOs Data Transfers Objects
+-- DTOs Data Transfers Objects => Son las propiedades de los objetos que son necesarias o que se deben enviar a la hora de realizar alguna ejecucion o peticion
+-- El id y la fecha de creacion se crean una unica vez por lo tanto no es necesario enviarlos siempre, el nombre o el precio pueden cambiar en ese caso el nombre y precio son DTOs
 
+## TIPADO POR INIDCE
+-- En el caso de los tipado que pueden cambiar se recomienda usar tipado por indice cuando se vaya a usar este dato
+-- Previene errores a la hora de cambiar un tipo en una type base porque se reasinga automaticamente
+--
+
+interface BaseModel {
+  readonly id: number;
+  readonly createdAt: Date;
+  updatedAt: Date;
+}
+
+const update = (id: string) => {} | Tipado fijo
+const update = (id: BaseModel['id']) => {} | Tipado por indice
+
+## READONLYARRAY
+-- es un tipado que previene las mutaciones en un array
